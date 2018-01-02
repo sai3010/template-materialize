@@ -1,0 +1,88 @@
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+nav{
+	position: fixed;
+	background-color: #555 !important;
+}
+h1{
+	color: #4CAF50;
+}
+h5{
+	color: #4CAF50;
+}
+.head{
+	margin-top: 15%;
+}
+.section{
+	height: 100vh;
+	background-image: url(../accounting.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-origin: content-box;
+	background-position: center;
+}
+.aboutsection{
+	height: 100vh;
+	background-image: url(../handshake.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-origin: content-box;
+	background-position: center;
+}
+.text{
+	margin-top: 10%;
+	opacity: 1 !important;
+	font-size: 1.1em;
+	font-family: sans-serif;
+}
+h3{
+	text-align: center;
+	margin-top: 5%;
+}
+@media screen and (max-width: 1300px)
+{
+	.text{
+		margin-top: 7%;
+		font-size: 1em;
+	}
+}
+@media screen and (max-width: 650px)
+{
+	.text{
+		margin-top: 0%;
+		font-size: 1em;
+	}
+	h3{
+	text-align: center;
+	margin-top: 0%;
+	}
+	nav-wrapper{
+		font-size: 1em;
+	}
+	#logo-container{
+	font-size: 15px;
+	}
+}
+@media screen and (max-width: 360px)
+{
+	.text{
+		margin-top: 0%;
+		font-size: 0.85em;
+	}
+	h3{
+	text-align: center;
+	margin-top: 0%;
+	}
+}
+
+#sidenav-overlay{
+	opacity: 0 !important;
+	z-index: 9999 !important;
+}
+#download-button,.page-footer{
+	background-color:  MediumSeaGreen;
+}
